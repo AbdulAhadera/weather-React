@@ -58,9 +58,9 @@ function WeatherApp() {
                     <img src={search_icon} alt="search" />
                 </div>
             </div>
+{/* //push */}
 
             <div className='box'>
-
                 <div className='weather-image'>
                     {console.log("weather:", weather)}
                     {weather && weather.weather && (
